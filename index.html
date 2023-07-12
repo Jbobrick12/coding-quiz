@@ -9,19 +9,28 @@
   </head>
 
   <body>
-    <main id="container">
-      <div id="question-container" class="question-container hide">Question</div>
+    <section id="section">
+      <header>Coding Quiz</header>
+      <p>
+        Welcome to my coding quiz! Answer the following questions about
+        JavaScript and set the high score!
+      </p>
+      <button id="start-button" class="start-button">Start Quiz</button>
+    </section>
+    <main id="container" class="hide">
+      <div id="question-container" class="question-container">
+        Question
+      </div>
       <div id="answer-container" class="answer-container">
         <button class="answers">Answer 1</button>
         <button class="answers">Answer 2</button>
         <button class="answers">Answer 3</button>
         <button class="answers">Answer 4</button>
       </div>
-      <div class="quiz-buttons">
-        <button id="start-button" class="start-button">Start Quiz</button>
-        <button id="submit-button" class="submit-button hide">Submit</button>
-      </div>
     </main>
+    <div class="quiz-buttons">
+      <button id="submit-button" class="submit-button hide">Submit</button>
+    </div>
     <script src="assets/script.js"></script>
   </body>
 </html>
