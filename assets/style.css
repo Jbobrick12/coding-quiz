@@ -15,6 +15,7 @@ header, p {
     justify-content: center;
     margin-top: 50px;
     font-weight: bold;
+    font-size: 25px
 }
 /* Styling all of the buttons */
 button {
@@ -34,6 +35,17 @@ button:hover {
 
 .container {
     max-width: 75%;
+}
+
+body h1 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 90%;
+}
+
+.highscores {
+    position: absolute;
+    margin-left: -80%;
 }
 
 .question {
