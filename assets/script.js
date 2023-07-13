@@ -87,5 +87,12 @@ var questions = [
       { text: "Java Tag", correct: false },
       { text: "Section Tag", correct: false },
     ],
+    question: "Where is the correct place to insert a JavaScript?",
+    answers: [
+      { text: "Body", correct: false },
+      { text: "Head", correct: false },
+      { text: "Body or Head sections", correct: true },
+      { text: "None of the above", correct: false },
+    ],
   },
 ];
